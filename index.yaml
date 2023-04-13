@@ -3,9 +3,10 @@ entries:
   sn-platform-slim:
   - apiVersion: v1
     appVersion: "2.10"
-    created: "2023-04-13T13:45:47.734143663Z"
-    description: StreamNative Platform Chart
+    created: "2023-03-16T23:45:47.734143663Z"
+    description: StreamNative Platform Slim Chart
     digest: e4ff6b5ef93e54cbd3e3e16ce3851a80a9fd31045dbb7317c1ac664d3d679ac9
+    name: sn-platform-slim
     sources:
     - https://github.com/ericsyh/sn-platform-slim/tree/main/sn-platform-slim
     urls:
