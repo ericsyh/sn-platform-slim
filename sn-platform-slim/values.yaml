@@ -207,7 +207,7 @@ images:
     pullPolicy: "IfNotPresent"
   vault:
     repository: hashicorp/vault
-    tag: "1.11.8"
+    tag: "1.11.9"
     pullPolicy: "IfNotPresent"
   bank_vaults:
     repository: ghcr.io/banzaicloud/bank-vaults
