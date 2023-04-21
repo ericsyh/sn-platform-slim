@@ -189,12 +189,12 @@ images:
     tag: "v0.25.0"
     pullPolicy: IfNotPresent
   grafana:
-    repository: streamnative/apache-pulsar-grafana-dashboard-k8s
-    tag: "0.0.18"
+    repository: grafana/grafana
+    tag: "9.3.6-ubuntu"
     pullPolicy: IfNotPresent
   streamnative_console:
     repository: streamnative/private-cloud-console
-    tag: "v2.1.0-rc21"
+    tag: "v2.1.0-rc34"
     pullPolicy: IfNotPresent
     hasCommand: false
   node_exporter:
