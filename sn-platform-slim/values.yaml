@@ -129,7 +129,7 @@ monitoring:
 ## Control what images to use for each component
 images:
   zookeeper:
-    repository: docker.cloudsmith.io/streamnative/staging/pulsar-all-slim
+    repository: docker.cloudsmith.io/streamnative/staging/sn-platform-slim
     tag: "2.10.4.1"
     pullPolicy: IfNotPresent
     customTools:
@@ -140,36 +140,36 @@ images:
         repository: "streamnative/pulsar-metadata-tool"
         tag: "2.10.4.1"
   bookie:
-    repository: docker.cloudsmith.io/streamnative/staging/pulsar-all-slim
+    repository: docker.cloudsmith.io/streamnative/staging/sn-platform-slim
     tag: "2.10.4.1"
     pullPolicy: IfNotPresent
   autorecovery:
-    repository: docker.cloudsmith.io/streamnative/staging/pulsar-all-slim
+    repository: docker.cloudsmith.io/streamnative/staging/sn-platform-slim
     tag: "2.10.4.1"
     pullPolicy: IfNotPresent
   broker:
-    repository: docker.cloudsmith.io/streamnative/staging/pulsar-all-slim
+    repository: docker.cloudsmith.io/streamnative/staging/sn-platform-slim
     tag: "2.10.4.1"
     pullPolicy: IfNotPresent
   proxy:
-    repository: docker.cloudsmith.io/streamnative/staging/pulsar-all-slim
+    repository: docker.cloudsmith.io/streamnative/staging/sn-platform-slim
     tag: "2.10.4.1"
     pullPolicy: IfNotPresent
   pulsar_detector:
-    repository: docker.cloudsmith.io/streamnative/staging/pulsar-all-slim
+    repository: docker.cloudsmith.io/streamnative/staging/sn-platform-slim
     tag: "2.10.4.1"
     pullPolicy: IfNotPresent
   functions:
-    repository: docker.cloudsmith.io/streamnative/staging/pulsar-all-slim
+    repository: docker.cloudsmith.io/streamnative/staging/sn-platform-slim
     tag: "2.10.4.1"
     pullPolicy: IfNotPresent
   function_worker:
-    repository: docker.cloudsmith.io/streamnative/staging/pulsar-all-slim
+    repository: docker.cloudsmith.io/streamnative/staging/sn-platform-slim
     tag: "2.10.4.1"
     pullPolicy: IfNotPresent
   # NOTE: allow overriding the toolset image
   toolset:
-    repository: docker.cloudsmith.io/streamnative/staging/pulsar-all-slim
+    repository: docker.cloudsmith.io/streamnative/staging/sn-platform-slim
     tag: "2.10.4.1"
     pullPolicy: IfNotPresent
     kafka:
@@ -189,8 +189,8 @@ images:
     tag: "v0.25.0"
     pullPolicy: IfNotPresent
   grafana:
-    repository: grafana/grafana
-    tag: "9.3.6-ubuntu"
+    repository: streamnative/apache-pulsar-grafana-dashboard-k8s
+    tag: "0.0.19"
     pullPolicy: IfNotPresent
   streamnative_console:
     repository: streamnative/private-cloud-console
@@ -225,7 +225,7 @@ images:
     tag: "v0.9.0"
     pullPolicy: IfNotPresent
   pulsar_metadata:
-    repository: docker.cloudsmith.io/streamnative/staging/pulsar-all-slim
+    repository: docker.cloudsmith.io/streamnative/staging/sn-platform-slim
     tag: "2.10.4.1"
     pullPolicy: IfNotPresent
   configmapReload:
