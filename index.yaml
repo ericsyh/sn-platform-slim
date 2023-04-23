@@ -104,7 +104,7 @@ entries:
     appVersion: "2.10"
     created: "2023-04-23T12:45:47.734143663Z"
     description: StreamNative Platform Slim Chart
-    digest: a4ff6b5ef33es4cbs4f3e1b5314c1ac664d3s677ac93e16be3821a80d3d678fe
+    digest: a4ff6b5ef23es4cbs4e3e1b5314c1ac664d3s677ac93e16be3821a80d3d678fr
     name: sn-platform-slim
     sources:
     - https://github.com/ericsyh/sn-platform-slim/tree/main/sn-platform-slim
