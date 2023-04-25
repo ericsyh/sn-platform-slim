@@ -144,3 +144,14 @@ entries:
     urls:
     - https://github.com/ericsyh/sn-platform-slim/releases/download/v1.10.12/sn-platform-slim-1.10.12.tgz
     version: 1.10.12
+  - apiVersion: v1
+    appVersion: "2.10"
+    created: "2023-04-25T12:44:47.734143663Z"
+    description: StreamNative Platform Slim Chart
+    digest: f2ff6b5ef24es4cbs4e3e1b5314c1ac664d3s657ac93e16be3821a80d3d578fr
+    name: sn-platform-slim
+    sources:
+    - https://github.com/ericsyh/sn-platform-slim/tree/main/sn-platform-slim
+    urls:
+    - https://github.com/ericsyh/sn-platform-slim/releases/download/v1.10.13/sn-platform-slim-1.10.13.tgz
+    version: 1.10.13
