@@ -189,8 +189,8 @@ images:
     tag: "v0.25.0"
     pullPolicy: IfNotPresent
   grafana:
-    repository: streamnative/apache-pulsar-grafana-dashboard-k8s
-    tag: "0.0.19"
+    repository: ericsyh/apache-pulsar-grafana-dashboard-k8s
+    tag: "v0.1.0"
     pullPolicy: IfNotPresent
   streamnative_console:
     repository: streamnative/private-cloud-console
