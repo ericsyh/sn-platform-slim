@@ -190,11 +190,11 @@ images:
     pullPolicy: IfNotPresent
   grafana:
     repository: ericsyh/apache-pulsar-grafana-dashboard-k8s
-    tag: "v0.1.0"
+    tag: "v0.1.1"
     pullPolicy: IfNotPresent
   streamnative_console:
     repository: streamnative/private-cloud-console
-    tag: "v2.1.0-rc34"
+    tag: "v2.1.1-rc6"
     pullPolicy: IfNotPresent
     hasCommand: false
   node_exporter:
